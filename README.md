@@ -11,9 +11,9 @@ Node 8, 10 or higher.
 Install the package with:
 
 ```sh
-npm install lotr --save
+npm install lotr-sdk --save
 # or
-yarn add lotr
+yarn add lotr-sdk 
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ available in your LotR dashboard.
 
 <!-- prettier-ignore -->
 ```js
-import LotR from 'lotr';
+import LotR from 'lotr-sdk';
 const lotr = new LotR('your_api_key');
 
 (async () => {
